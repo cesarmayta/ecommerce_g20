@@ -6,7 +6,7 @@ After=network.target
 [Service]
 User=root
 Group=www-data
-WorkingDirectory=/home/ecommerceg20
+WorkingDirectory=/home/ecommerce_g20
 ExecStart=/home/venv/bin/gunicorn \
           --access-logfile - \
           --workers 3 \
